@@ -1,11 +1,7 @@
 ## Setup
-### Build Image
+### Run APP with docker compose
 
-docker build -t latostadora-frontend-test-app .
-
-### Run container
-
-docker run -p 8100:8100 latostadora-frontend-test-app
+docker compose up -d
 
 ### Access the app
 
